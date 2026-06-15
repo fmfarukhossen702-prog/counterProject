@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+.pop{
+  animation: pop 0.3s ease;
+}
+
+@keyframes pop{
+  0%{
+    transform: scale(0);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
